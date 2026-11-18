@@ -1,7 +1,7 @@
 {
   "id": "campcalendar",
   "title": "Camp Calendar",
-  "description": "Compare how early people booked overnight stays at two Nova Scotia provincial parks.",
+  "description": "Compare how far ahead campers booked at Nova Scotia provincial parks, two parks at a time.",
   "category": "places",
   "tags": [
     "Nova Scotia",
@@ -33,6 +33,18 @@
           ],
           "unit": "reservations"
         }
+      },
+      {
+        "label": "Arrival years",
+        "url": "https://coolcode.ca/campcalendar/data/status.json",
+        "path": [
+          "years",
+          0
+        ],
+        "end_path": [
+          "years",
+          -1
+        ]
       }
     ]
   }
