@@ -1,0 +1,53 @@
+{
+  "count": 506927,
+  "sourceRows": 523822,
+  "years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "parks": [
+    "Amherst Shore",
+    "Battery",
+    "Blomidon",
+    "Boylston",
+    "Cape Chignecto",
+    "Caribou Munroes",
+    "Dollar Lake",
+    "Ellenwood Lake",
+    "Five Islands",
+    "Graves Island",
+    "Laurie",
+    "Mira River",
+    "Porters Lake",
+    "Rissers Beach",
+    "Salsman",
+    "Smileys",
+    "The Islands",
+    "Thomas Raddall",
+    "Valleyview",
+    "Whycocomagh"
+  ],
+  "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "retrieved": "2026-11-18"
+}

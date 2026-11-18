@@ -1,16 +1,39 @@
 {
-  "id": "coolcode-tool-template",
-  "title": "CoolCode Tool Starter",
-  "description": "A browser-only example that trims lines and removes exact duplicates.",
-  "category": "security",
-  "tags": ["text", "lines", "duplicates"],
-  "icon": "scan-search",
-  "url": "/coolcode-tool-template/",
-  "source": "https://github.com/jsdyer/coolcode-tool-template",
+  "id": "campcalendar",
+  "title": "Camp Calendar",
+  "description": "Compare how early people booked overnight stays at two Nova Scotia provincial parks.",
+  "category": "places",
+  "tags": [
+    "Nova Scotia",
+    "parks",
+    "camping",
+    "reservations",
+    "tent",
+    "RV"
+  ],
+  "icon": "map",
+  "url": "/campcalendar/",
+  "source": "https://github.com/jsdyer/campcalendar",
   "hosting": "project",
   "access": "browser",
   "data_info": {
-    "mode": "local",
-    "detail": "The browser reads the text you paste and compares its lines."
+    "mode": "snapshot",
+    "detail": "Overnight reservations from Nova Scotia’s provincial parks show how far ahead campers booked their trips.",
+    "cadence": "Monthly",
+    "probes": [
+      {
+        "label": "Data retrieved",
+        "url": "https://coolcode.ca/campcalendar/data/status.json",
+        "path": [
+          "retrieved"
+        ],
+        "count_at": {
+          "path": [
+            "count"
+          ],
+          "unit": "reservations"
+        }
+      }
+    ]
   }
 }
