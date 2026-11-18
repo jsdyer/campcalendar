@@ -14,7 +14,7 @@ Quantiles use the nearest-rank convention, so each displayed day is an observed 
 
 ## Data and updates
 
-[Nova Scotia provincial park reservations](https://data.novascotia.ca/datasets/4zt7-x443) supplies the underlying records. A monthly GitHub Action downloads the sources and validates the complete edition. The homepage reads the count and retrieval date from [status metadata](https://coolcode.ca/campcalendar/data/status.json). The date records when the upstream data was read. Each archive retains its original coverage. When a refresh fails the previously published edition remains available.
+[Nova Scotia provincial park reservations](https://data.novascotia.ca/datasets/4zt7-x443) supplies the underlying records. A monthly GitHub Action downloads the sources and validates the complete edition. The homepage reads the arrival years, count and retrieval date from [status metadata](https://coolcode.ca/campcalendar/data/status.json). The date records when the upstream data was read. Each archive retains its original coverage. When a refresh fails the previously published edition remains available.
 
 ## Development
 
